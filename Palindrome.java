@@ -2,12 +2,7 @@ public class Palindrome {
 
     public static void main(String[] args) {
 
-        if (args.length == 0) {
-            System.out.println("Please provide a number.");
-            return;
-        }
-
-        int number = Integer.parseInt(args[0]);
+        int number = 121;   // You can change this value
         int original = number;
         int reverse = 0;
 
@@ -18,9 +13,9 @@ public class Palindrome {
         }
 
         if (original == reverse) {
-            System.out.println(original + " is a Palindrome.");
+            System.out.println(original + " is a palindrome");
         } else {
-            System.out.println(original + " is not a Palindrome.");
+            System.out.println(original + " is not a palindrome");
         }
     }
 }
